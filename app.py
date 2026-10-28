@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 def greet(name: str) -> str:
-    return f"Hello, {name}"
+    return f"Hello, {name}!"
 
 
 @app.get("/")
