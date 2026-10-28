@@ -9,7 +9,7 @@ def greet(name: str) -> str:
 
 @app.get("/")
 def index() -> str:
-    return f"<h1>{greet('World')}</h1>"
+    return f"<h1>{greet('World')}</h1><p>Welcome to the sandbox preview.</p>"
 
 
 if __name__ == "__main__":
